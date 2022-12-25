@@ -56,7 +56,9 @@ ROOT_URLCONF = 'aadit_ranjan.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': [],
+        'DIRS': [
+            'templates'
+        ],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
@@ -119,11 +121,15 @@ USE_TZ = True
 
 STATIC_URL = '/staticfiles/'
 
-IMG_URL = '/images/'
+IMG_URL = 'images/'
+
+STATIC_ROOT = os.path.join(BASE_DIR, 'static') 
+
+
 
 STATICFILES_LOC = [
-    os.path.join(BASE_DIR, 'staticfiles')
-]
+    os.path.join(BASE_DIR, 'static/')
+] 
 
 
 
