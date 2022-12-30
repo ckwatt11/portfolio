@@ -1,0 +1,117 @@
+
+{% load static %}
+
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Aadit Ranjan</title>
+
+	<link href="{% static '/css/main.css'  %}" rel="stylesheet" type="text/css">
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+
+</head>
+
+<body>
+	<br>
+	<div class="container">
+		<div class="row">
+			<div class="col-md-3">
+				<div class="card card-body h-100  border-info" id="profile-wrapper">
+					<img id="profile-pic" src="{% static 'images/aaditpfp.jpg' %}" >
+					<hr>
+					<h4>Hello, I'm Aadit!</h4>
+					<p>Thanks for visiting my portfolio website! I'm a Computer Science major in my final semester at the Pennsylvania State University. A proactive problem solver, my hobbies include coding, cooking, listening to music, learning languages, playing video games, reading and working out.</p>
+				</div>
+			</div>
+
+            <div class="col-md-9">
+				<div class="card card-body h-100  border-info">
+					<h5><b>Socials I use:</b></h5>
+					<hr>
+					
+					<ul class="social-links">
+						<li><a href="https://www.linkedin.com/in/aadit-ranjan-218b81203/"><img class="social" src="{% static 'images/linkedin.png' %}"></a></li>
+                        <li><a href="https://github.com/ckwatt11"><img class="social" src="{% static 'images/github.png' %}"></a></li>
+					</ul><hr>
+					<p>I am currently on the hunt for an entry-level Software Engineering/Web Development role. Through a combination of personal projects, relevant coursework and a bit of work experience, I have been broadening and improving upon my skillset.</p>
+				</div>
+			</div>
+		</div>
+        <br>
+		<div class="row">
+			<div class="col-md-6">
+				<div class="card card-body h-100" >
+					<h5><b>Work Experience</b></h5>
+					<hr>
+					<p>SWE Intern at Arcetyp LLC</p>
+					<ul style="margin-left: 20px;">
+						<li>--> Contributed as an intern to support a technology focused US Government contracting consulting services firm</li>
+						<li>--> Supported assessment of automation technologies to corporate systems and processes </li>
+						<li>--> Collaborated with, assessed and discussed use of Kubernetes and related technologies with clients in terms of fit for platform use </li>
+					</ul>	
+					</div>
+			</div>
+			<br>
+			<div class="col-md-6">
+				<div class="card card-body h-100">
+					<h5><b>Personal Projects</b> </h5>
+					<hr>
+					<ul style="margin-left: 1px;">
+						<li>--> Built a video chat application with JavaScript, HTML and the Agora.io API and SDK </li>
+						<li>--> Programmed a Sorting Algorithm Visualizer - an app that shows how the most popular sorting algorithms work using JavaScript, React and HTML </li>
+						<li>--> Developed a Simple Content Management System(CMS) with JavaScript, MongoDB, Express and the chai testing library </li>
+						<li>--> Crafted a command-line weather app using Python and the OpenWeather REST API</li>
+					</ul>
+				</div>
+			</div>
+
+			<div class="col-md-6">
+				<div class="card card-body h-65">
+					<h5><b>My skills and competencies</b></h5>
+					<hr>
+					<ul>
+						<li><b>Programming Languages:</b> C++, Java, C, Python, JavaScript, VBA, Bash, SQL, HTML5, Assembly Language </li><br>
+						<li><b>Technologies/Software:</b> Django, Node.js, pandas, scikit-learn, Git, Bash, Docker, MongoDB,
+							ReactJS, Postman </li><br>
+						<li><b>Soft Skills:</b> Critical Thinking, Adaptability, Collaboration, Diligence, Professionalism (and a healthy willingness to learn!) </li> <br>
+						<li><b>Spoken languages:</b> English(Native), Hindi(Native), Mandarin(currently a student)</li> <br>
+					</ul>
+				</div>
+			</div>
+			<div class="col-md-6">
+				<div class="card card-body h-100">
+					<h5><b>Education</b></h5> 
+					<hr>
+					<p align="right"> <span style = "font-size: 12px"><b><i>The Pennsylvania State University<br> Aug 2018 - May 2023</i></b></span></p>
+                    <ul style="margin-left: 20px;">
+						<li>--> Algorithms and Data Structures</li><br>
+						<li>--> Operating systems</li><br>
+						<li>-->Introduction to Software Design and Methodology</li>
+						<ul style="margin-left: 20px;"> 
+							<li>↪ Delivered an Enterprise Indexing Application for an industry client as part of a student development
+								team</li>
+						</ul>
+						<li>--> Machine Learning and Algorithmic AI</li><br>
+						<li>--> Systems Programming in C</li><br>
+						<ul style="margin-left: 20px;">
+							<li>↪ Implemented a JBOD storage architecture using the TCP/IP protocol with caching support</li>
+						</ul>	
+						<li>--> OOP with Web Development in Java</li>
+						<ul style="margin-left: 20px;">
+							<li>↪ Wrote a CRUD Room Scheduling Application using the Apache Derby mySQL RDBMS </li>
+						</ul>
+						<li>--> Fundamentals of Digital Design</li><br>
+						<ul style="margin-left: 20px;">
+							<li>↪ Modeled a working MIPS CPU to simulate low-level computer operations in Assembly and Verilog</li>
+						</ul>
+					</ul>	
+					
+				</div>
+			</div>
+		</div>
+		<br>
+	</div>
+
+
+</body>
+</html>
