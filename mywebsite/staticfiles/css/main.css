@@ -1,9 +1,10 @@
 html{
-	background-color:#139ede!important;	
+	background-image: url("nl.jpg")!important;
 }
 
 body{
-	background-color:#139ede!important;
+	
+	background-image: url("nl.jpg")!important;
 	
 }
 
@@ -21,17 +22,18 @@ body{
 
 ul{
 	padding: 0;
-    list-style-type: none;
+    list-style-type: disc;
+
 }
 
 
 .social-links ul, li{
 	list-style-position: inside;
-	list-style-image: url('../images/bullet.jpg');
-	align-items:left;
+	margin-left: 1em;
+    text-align: initial;
 	display: list-item;
-	padding-left: 40px;
-	display: inline-block;
+	padding-left: 3px;
+	
 }
 
 .social{
@@ -39,3 +41,10 @@ ul{
 	height: 35px;
 }
 
+#banner{
+	width: 100%;
+	height: 100px;
+	white-space: nowrap;
+	display: inline-block;
+	margin-right: 50%;
+}

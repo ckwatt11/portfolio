@@ -1,6 +1,6 @@
 
 {% load static %}
-
+	
 <!DOCTYPE html>
 <html>
 <head>
@@ -26,14 +26,12 @@
 
             <div class="col-md-9">
 				<div class="card card-body h-100  border-info">
-					<h5><b>Socials I use:</b></h5>
-					<hr>
-					
+					<h5><b><u>Socials I use:</b></u></h5><br>
 					<ul class="social-links">
 						<li><a href="https://www.linkedin.com/in/aadit-ranjan-218b81203/"><img class="social" src="{% static 'images/linkedin.png' %}"></a></li>
                         <li><a href="https://github.com/ckwatt11"><img class="social" src="{% static 'images/github.png' %}"></a></li>
 					</ul><hr>
-					<p>I am currently on the hunt for an entry-level Software Engineering/Web Development role. Through a combination of personal projects, relevant coursework and a bit of work experience, I have been broadening and improving upon my skillset.</p>
+					<p>I am currently on the hunt for an entry-level Software Engineering/Web Development role for Summer 2023. Through a combination of personal projects, relevant coursework and a bit of work experience, I have been broadening and improving upon my skillset.</p>
 				</div>
 			</div>
 		</div>
@@ -43,24 +41,26 @@
 				<div class="card card-body h-100" >
 					<h5><b>Work Experience</b></h5>
 					<hr>
-					<p>SWE Intern at Arcetyp LLC</p>
-					<ul style="margin-left: 20px;">
-						<li>--> Contributed as an intern to support a technology focused US Government contracting consulting services firm</li>
-						<li>--> Supported assessment of automation technologies to corporate systems and processes </li>
-						<li>--> Collaborated with, assessed and discussed use of Kubernetes and related technologies with clients in terms of fit for platform use </li>
+					<img id="banner" src="{% static 'images/arcbanner.png' %}">
+					<p><b><i>SWE Intern at Arcetyp LLC</i></b></p>
+					<ul style="margin-left: 2px;">
+						<li>Contributed as an intern to support a technology focused US Government contracting consulting services firm</li>
+						<li>Supported assessment of automation technologies to corporate systems and processes </li>
+						<li>Collaborated with, assessed and discussed use of Kubernetes and related technologies with clients in terms of fit for platform use </li>
 					</ul>	
 					</div>
 			</div>
 			<br>
 			<div class="col-md-6">
-				<div class="card card-body h-100">
+				<div class="card card-body h-80">
 					<h5><b>Personal Projects</b> </h5>
 					<hr>
 					<ul style="margin-left: 1px;">
-						<li>--> Built a video chat application with JavaScript, HTML and the Agora.io API and SDK </li>
-						<li>--> Programmed a Sorting Algorithm Visualizer - an app that shows how the most popular sorting algorithms work using JavaScript, React and HTML </li>
-						<li>--> Developed a Simple Content Management System(CMS) with JavaScript, MongoDB, Express and the chai testing library </li>
-						<li>--> Crafted a command-line weather app using Python and the OpenWeather REST API</li>
+						<li><a href="https://github.com/ckwatt11/cli-weather-app"><b> CLI weather app:</b></a> Crafted a command-line weather app using Python and REST APIs provided by <a href="https://openweathermap.org/api">OpenWeather</a></li>
+						<li>Built a <a href="https://github.com/ckwatt11/webrtc-chat">WebRTC chat application</a> with JavaScript and APIs provided by WebRTC. </li>
+						<li>Programmed a <a href="https://github.com/ckwatt11/SortingVisualizer">Sorting Algorithm Visualizer</a> - an app that shows how the most popular sorting algorithms work, using JavaScript, React and HTML </li>
+						<li>Developed a Simple <a href="https://github.com/ckwatt11/mongodb-crud-app">Content Management System</a>(CMS) with JavaScript, MongoDB, Express and the chai testing library </li>
+						<li>This portfolio website, implemented with Python(Django), HTML and CSS. </li>
 					</ul>
 				</div>
 			</div>
@@ -70,11 +70,11 @@
 					<h5><b>My skills and competencies</b></h5>
 					<hr>
 					<ul>
-						<li><b>Programming Languages:</b> C++, Java, C, Python, JavaScript, VBA, Bash, SQL, HTML5, Assembly Language </li><br>
+						<li><b>Programming Languages:</b> C++, Java, C, Python, JavaScript, VBA, Bash, SQL, HTML5, Assembly Language </li>
 						<li><b>Technologies/Software:</b> Django, Node.js, pandas, scikit-learn, Git, Bash, Docker, MongoDB,
-							ReactJS, Postman </li><br>
-						<li><b>Soft Skills:</b> Critical Thinking, Adaptability, Collaboration, Diligence, Professionalism (and a healthy willingness to learn!) </li> <br>
-						<li><b>Spoken languages:</b> English(Native), Hindi(Native), Mandarin(currently a student)</li> <br>
+							ReactJS, Postman </li>
+						<li><b>Soft Skills:</b> Critical Thinking, Adaptability, Collaboration, Diligence, Professionalism (and a healthy willingness to learn!) </li>		
+						<li><b>Spoken languages:</b> English(Native), Hindi(Native), Mandarin(currently a student)</li> 
 					</ul>
 				</div>
 			</div>
@@ -82,27 +82,28 @@
 				<div class="card card-body h-100">
 					<h5><b>Education</b></h5> 
 					<hr>
-					<p align="right"> <span style = "font-size: 12px"><b><i>The Pennsylvania State University<br> Aug 2018 - May 2023</i></b></span></p>
-                    <ul style="margin-left: 20px;">
-						<li>--> Algorithms and Data Structures</li><br>
-						<li>--> Operating systems</li><br>
-						<li>-->Introduction to Software Design and Methodology</li>
-						<ul style="margin-left: 20px;"> 
-							<li>↪ Delivered an Enterprise Indexing Application for an industry client as part of a student development
-								team</li>
+					
+					<p align="right"> <b><i><img id="banner" src="{% static 'images/psubanner.jpg' %}"> <span style = "font-size: 10px"></span>The Pennsylvania State University <br line-height:2px>Aug 2018 - May 2023</i></b></span></p>
+                    <ul style="margin-left: 2px;">
+						<li> Algorithms and Data Structures</li>
+						<li> Operating systems</li>
+						<li> Introduction to Software Design and Methodology</li>
+						<ul style="margin-left: 10px;"> 
+							<li> Delivered an Enterprise Indexing Application for an industry client as part of a student development
+								   team</li>
 						</ul>
-						<li>--> Machine Learning and Algorithmic AI</li><br>
-						<li>--> Systems Programming in C</li><br>
-						<ul style="margin-left: 20px;">
-							<li>↪ Implemented a JBOD storage architecture using the TCP/IP protocol with caching support</li>
+						<li> Machine Learning and Algorithmic AI</li>
+						<li> Systems Programming in C</li>
+						<ul style="margin-left: 10px;">
+							<li> Implemented a JBOD storage architecture using the TCP/IP protocol with caching support</li>
 						</ul>	
-						<li>--> OOP with Web Development in Java</li>
-						<ul style="margin-left: 20px;">
-							<li>↪ Wrote a CRUD Room Scheduling Application using the Apache Derby mySQL RDBMS </li>
+						<li> OOP with Web Development in Java</li>
+						<ul style="margin-left: 10px;">
+							<li> Wrote a CRUD Room Scheduling Application using the Apache Derby mySQL RDBMS </li>
 						</ul>
-						<li>--> Fundamentals of Digital Design</li><br>
-						<ul style="margin-left: 20px;">
-							<li>↪ Modeled a working MIPS CPU to simulate low-level computer operations in Assembly and Verilog</li>
+						<li> Fundamentals of Digital Design</li>
+						<ul style="margin-left: 19px;">
+							<li> Modeled a working MIPS CPU to simulate low-level computer operations in Assembly and Verilog</li>
 						</ul>
 					</ul>	
 					
